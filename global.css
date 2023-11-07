@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --body-m: Outfit;
+    --heading-m: "Big Shoulders Display";
+
+    /* font sizes */
+    --body-m-size: 1.38rem;
+    --heading-m-size: 3.75rem;
+    --heading-xl-size: 6rem;
+
+    /* Colors */
+    --color-white: #ffffff;
+    --almost-black: #151515;
+    --dark-grey: #444444;
+    --gold: #d5966c;
+}
