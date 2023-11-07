@@ -1,40 +1,166 @@
-/* .container{
-  margin-inline: auto;
-}  */
-.container{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containe {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  background-image: linear-gradient(to right, black 0 50%, white 50% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containe h1 {
+  mix-blend-mode: difference;
+  color: white;
+}
+/* ..........Desktop-Home............ */
+/* .home{
+  border: 2px dashed pink;
+} */
+.rectangle-parent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 32.25% 35.5% 32.25%;
+  grid-template-rows: 50rem;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+
+.rectangle-1 {
+  grid-column: 1/2;
+  grid-row: 1;
+  border: 2px solid black;
+  background-color: var(--almost-black);
+  position: relative;
+}
+.art-gallery-container{
+  background-color: green;
+  width: 100vh;
+  position: absolute;
+  /* color: aquamarine; */
+  top: 40%;
+  right: -138%;
+  display: flex;
+  justify-content: start;
+}
+.rectangle-1 h1 {
+  font-family: Big Shoulders Display;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 5.5rem;
+  text-transform: uppercase;
+}
+
+.rectangle-2 {
+  grid-column: 2/3;
+  grid-row: 1;
+  border: 2px solid green;
+}
+
+.rectangle-2 img {
+  height: auto;
+  width: 100%;
+}
+
+.rectangle-3 {
+  grid-column: 3/4;
+  grid-row: 1;
+  border: 2px solid yellow;
+}
+
+.our-location-btn {}
+
+/* ...............Showcase-1 .................*/
+
+.showcase-1 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.box-1 {
+  width: 27.8rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 4rem;
+}
+
+.box-2 {
+  width: 39.6875rem;
+  height: 25rem;
+  background-image: url('./Images/gallery_image_1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ...............Showcase-2 .................*/
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.showcase {
+
+.showcase-2 {
   display: grid;
-  grid-template-columns: 50vw 30vw;
-  grid-template-rows: 40vh 40vh;
-  gap: 2rem;
+  grid-template-columns: 39.6875rem 27.8125rem;
+  grid-template-rows: 19.5625rem 23.5625rem;
+  gap: 1rem;
 }
 
 .image-1 {
   grid-column: 1/2;
   grid-row: 1/3;
-  border: solid 1px pink;
   background-image: url('./Images/gallery_image_2.svg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 .image-2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  border: solid 1px yellow;
   background-image: url('./Images/gallery_image_3.svg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-.showcase-info {
+.showcase-2-info {
   grid-column: 2/3;
   grid-row: 2/3;
-  border: solid 1px green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 4rem;
+  text-align: start;
+  background-color: var(--almost-black);
+  color: var(--color-white);
+}
+
+.showcase-2-info h1,
+.box-1 h1 {
+  font-family: Big Shoulders Display;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 3.75rem;
+  text-transform: uppercase;
+}
+
+.showcase-2-info p,
+.box-1 p {
+  font-family: Outfit;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem;
 }
 
 /* Footer */

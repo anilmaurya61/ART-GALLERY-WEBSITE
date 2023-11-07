@@ -1,0 +1,88 @@
+/* .............Map............................... */
+
+#map {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    left: 10rem; 
+    width:  16.5rem;
+    height: 4.5rem;
+    z-index: 1; 
+}
+/* .............OUR LOCATION SECTION ..............*/
+
+.location-info {
+    min-height: 34.25rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: var(--color-white);
+    background-color: var(--almost-black);
+    padding: 5rem 5rem 10.31rem 8rem;
+}
+
+.our-location h1 {
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.375rem;
+    text-transform: uppercase;
+}
+
+.location {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.location h1 {
+    color: var(--Gold, #D5966C);
+    font-family: Big Shoulders Display;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+}
+
+.location p {
+    font-family: Outfit;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+/* Footer */
+
+.footer-item {
+    color: var(--almost-black);
+    font-family: 300;
+    font-family: var(--heading-m);
+    background-color: var(--gold);
+    width: 100%;
+    min-height: 15.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-item ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-item p {
+    width: 25%;
+    height: auto;
+}
