@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-YourNonceHere' https://maps.googleapis.com">
+    <meta http-equiv="Content-Security-Policy"
+        content="script-src 'self' 'nonce-YourNonceHere' https://maps.googleapis.com">
     <title>Location</title>
     <link rel="stylesheet" href="./location.css">
     <link rel="stylesheet" href="./global.css">
@@ -13,11 +14,13 @@
 <body>
     <figure>
         <div class="map-container">
-            <img class="back-btn" src="./Images/back_to_home_idle.svg" alt="button">
+            <a href="./index.html">
+                <img class="back-btn" src="./Images/back_to_home_idle.svg" alt="button">
+            </a>
             <div id="map"></div>
         </div>
     </figure>
-   
+
     <section>
         <div class="location-info">
             <div class="our-location">
@@ -32,22 +35,22 @@
         </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="footer-item">
-                <h1>MODERN <br> ART GALLERY</h1>
-                <p>The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at
-                    99 King
-                    Street. Newport, USA.</p>
-                <ul>
-                    <li><a href="#"><img src="./Images/facebook-icon.svg" alt="facebook-icon"></a></li>
-                    <li><a href="#"><img src="./Images/instagram_ican.svg" alt="instagram-icon"></a></li>
-                    <li><a href="#"><img src="./Images/twitter_icon.svg" alt="twitter-icon"></a></li>
-                </ul>
-            </div>
+        <div class="footer-item">
+            <h1>MODERN <br> ART GALLERY</h1>
+            <p>The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at
+                99 King
+                Street. Newport, USA.</p>
+            <ul>
+                <li><a href="#"><img src="./Images/facebook-icon.svg" alt="facebook-icon"></a></li>
+                <li><a href="#"><img src="./Images/instagram_ican.svg" alt="instagram-icon"></a></li>
+                <li><a href="#"><img src="./Images/twitter_icon.svg" alt="twitter-icon"></a></li>
+            </ul>
         </div>
     </footer>
     <script src="./map.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOZj2kvV83fBrNm6DgqS9O47kl_3f7t98&callback=initMap" nonce="YourNonceHere"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOZj2kvV83fBrNm6DgqS9O47kl_3f7t98&callback=initMap"
+        nonce="YourNonceHere"></script>
 </body>
 
 </html>
