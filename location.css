@@ -83,13 +83,22 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .footer-item p {
     width: 25%;
     height: auto;
 }
-
+.facebook-icon:hover{
+    content: url('./Images/facebook-icon.svg');
+}
+.instagram-icon:hover{
+    content: url('./Images/instagram_ican.svg');
+}
+.twitter-icon:hover{
+    content: url('./Images/twitter_icon.svg');
+}
 /* ...........media Query............... */
 
 
