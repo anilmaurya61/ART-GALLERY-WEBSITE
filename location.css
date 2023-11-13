@@ -90,6 +90,7 @@
     width: 25%;
     height: auto;
 }
+
 .facebook-icon:hover{
     content: url('./Images/facebook-icon.svg');
 }

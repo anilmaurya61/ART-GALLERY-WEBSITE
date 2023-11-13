@@ -50,6 +50,7 @@
   grid-row: 1;
   background-image: url('./Images/Rectangle.svg');
   background-size: cover;
+  background-position: center;
 }
 
 .rectangle-3 {
@@ -83,10 +84,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-image 0.3s;
+  background-position: center;
 }
 
 .our-location-btn:hover {
   background-image: url('./Images/our_location_button_hover.svg');
+  background-position: center;
 }
 
 .art-gallery-container-tablet {
@@ -117,6 +120,7 @@
   background-image: url('./Images/gallery_image_1.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 /* ...............Showcase-2 .................*/
@@ -140,6 +144,7 @@
   background-image: url('./Images/gallery_image_2.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -149,6 +154,7 @@
   background-image: url('./Images/gallery_image_3.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .showcase-2-info {
@@ -254,6 +260,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--color-white);
+    background-position: center;
   }
 
   .art-gallery-container {
@@ -292,7 +299,7 @@
   .rectangle-parent {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: minmax(37rem, auto) minmax(30rem, auto);
+    grid-template-rows: minmax(24rem, auto) minmax(30rem, auto);
     margin-bottom: 3rem;
     overflow: hidden;
   }
@@ -304,6 +311,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--color-white);
+    background-position: center;
   }
 
   .art-gallery-container {
